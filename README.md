@@ -117,7 +117,8 @@ WHERE contact_title LIKE '%Market%'
   </details>
 
 ```SQL
-
+INSERT INTO customers(customer_id, company_name, contact_name, address, city, postal_code, country)
+VALUES ('SHIRE', 'The Shire', 'Bilbo Baggins', '1 Hobbit-Hole', 'Bag End', '111', 'Middle Earth')
 ```
 
 - [ ] **_update *Bilbo Baggins* record so that the postal code changes to *"11122"*_**
