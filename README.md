@@ -72,7 +72,8 @@ SELECT phone FROM suppliers WHERE supplier_id = 11
   </details>
 
 ```SQL
-
+SELECT * FROM orders
+ORDER BY order_date DESC
 ```
 
 - [ ] **_find all suppliers who have names longer than 20 characters. Returns 11 records_**
@@ -84,7 +85,8 @@ SELECT phone FROM suppliers WHERE supplier_id = 11
   </details>
 
 ```SQL
-
+SELECT * FROM suppliers
+WHERE length(company_name) > 20
 ```
 
 - [ ] **_find all customers that include the word 'MARKET' in the contact title. Should return 19 records_**
