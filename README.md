@@ -99,7 +99,8 @@ WHERE length(company_name) > 20
   </details>
 
 ```SQL
-
+SELECT * FROM customers
+WHERE contact_title LIKE '%Market%'
 ```
 
 - [ ] **_add a customer record for_**
